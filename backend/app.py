@@ -30,10 +30,8 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "https://dashing-kitsune-c79a7a.netlify.app",
         "http://localhost:8080",
-        "http://127.0.0.1:8080",
-        "http://192.168.50.240:8080",
-        "*"
     ],
     allow_credentials=True,
     allow_methods=["*"],
