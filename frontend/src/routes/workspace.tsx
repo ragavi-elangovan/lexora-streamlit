@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import { AnimatedBackground } from "@/components/lexora/Background";
 import { LexoraLogo } from "@/components/lexora/Logo";
-const API_URL = "http://localhost:8000";
+const API_URL = "https://lexora-ai-legal-production.up.railway.app";
 export const Route = createFileRoute("/workspace")({
   head: () => ({
     meta: [
